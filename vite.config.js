@@ -7,6 +7,7 @@ export default defineConfig(() => {
       outDir: 'build',
     },
     plugins: [react()],
+    base:'/lab-react-components/',
     assetsInclude: ["**/*.jpg", "**/*.JPG"],
   };
 });
